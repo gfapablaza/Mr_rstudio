@@ -1,0 +1,5 @@
+install.packages("qrcode")
+library(qrcode)
+code <-qr_code("https://stylishcravings.com/wp-content/uploads/2019/03/ChurrosConfetti3.jpg")
+plot(code)
+generate_svg(code, filename = "CAMINO PADA GUARDAR O ARQUIVO")
